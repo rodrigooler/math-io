@@ -23,6 +23,3 @@
 "use strict";
 
 var arithmetic = require('./lib/arithmetic-operators');
-
-console.log(arithmetic.Addition(5, 5));
-console.log(arithmetic.Subtraction(5, 5));

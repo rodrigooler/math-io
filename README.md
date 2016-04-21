@@ -15,15 +15,15 @@ npm i --save math-io
 ```js
 "use strict";
 
-const math-io = require(math-io);
+const math = require("math-io");
 
-console.log(arithmetic.Addition(500, 50));
-console.log(arithmetic.Subtraction(50, 25));
-console.log(arithmetic.Multiplication(9, 5));
-console.log(arithmetic.Division(10, 2));
-console.log(arithmetic.Modulus(3, 3));
-console.log(arithmetic.Increment(6));
-console.log(arithmetic.Decrement(9));
+console.log(math.Addition(500, 50));
+console.log(math.Subtraction(50, 25));
+console.log(math.Multiplication(9, 5));
+console.log(math.Division(10, 2));
+console.log(math.Modulus(3, 3));
+console.log(math.Increment(6));
+console.log(math.Decrement(9));
 ```
 
 ## Author
