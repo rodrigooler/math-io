@@ -1,6 +1,6 @@
 {
   "name": "math-io",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Mathematical module",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "Mathematical",
     "Constant"
   ],
-  "author": "Rodrigo Oler",
+  "author": "Rodrigo Oler - https://github.com/RodrigoOler",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RodrigoOler/math-io/issues"

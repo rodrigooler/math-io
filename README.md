@@ -17,12 +17,12 @@ npm i --save math-io
 
 const math = require("math-io");
 
-console.log(math.Addition(500, 50));
-console.log(math.Subtraction(50, 25));
-console.log(math.Multiplication(9, 5));
-console.log(math.Division(10, 2));
+console.log(math.Sum(500, 50));
+console.log(math.Subtract(50, 25));
+console.log(math.Multiply(9, 5));
+console.log(math.Divide(10, 2));
 console.log(math.Modulus(3, 3));
-console.log(math.Increment(6));
+console.log(math.Increase(6));
 console.log(math.Decrement(9));
 ```
 
