@@ -22,4 +22,6 @@
 
 "use strict";
 
-var arithmetic = require('./lib/arithmetic-operators');
+const app = require('./lib/arithmetic-operators');
+
+module.exports = app;
