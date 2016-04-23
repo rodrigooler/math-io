@@ -20,8 +20,8 @@
  * @author https://github.com/RodrigoOler/ (Rodrigo Oler)
  */
 
-"use strict";
+var app = require('./lib/arithmetic-operators');
 
-const app = require('./lib/arithmetic-operators');
+console.log(app.getRandomArbitrary());
 
 module.exports = app;
