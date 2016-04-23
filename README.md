@@ -13,17 +13,44 @@ npm i --save math-io
 ```
 
 ```js
-"use strict";
 
-const math = require("math-io");
+var math = require('math-io');
 
+// Return 550
 console.log(math.Sum(500, 50));
+
+// Return 25
 console.log(math.Subtract(50, 25));
+
+// Return 45
 console.log(math.Multiply(9, 5));
+
+// Return 5
 console.log(math.Divide(10, 2));
-console.log(math.Modulus(3, 3));
+
+// Return 45
+console.log(math.Modulus(100, 55));
+
+// Return 7
 console.log(math.Increase(6));
+
+// Return 8
 console.log(math.Decrement(9));
+
+// Returns a random number between 0 (inclusive) and 1 (exclusive)
+// Example 0.08402915764600039
+console.log(math.getRandom);
+
+// Returns a random number min (inclusive) and max (exclusive)
+// Example 2.569481764920056
+console.log(math.getRandomArbitrary(1, 5));
+
+// Return an integer between me (included) and max (deleted)
+// Using Math.round () will give you a non-uniform distribution!
+// Example 4
+
+console.log(math.getRandomInt(2, 5));
+
 ```
 
 ## Author

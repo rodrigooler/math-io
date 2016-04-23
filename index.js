@@ -22,6 +22,4 @@
 
 var app = require('./lib/arithmetic-operators');
 
-console.log(app.getRandomArbitrary());
-
 module.exports = app;
