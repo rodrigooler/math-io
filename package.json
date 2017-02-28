@@ -35,11 +35,11 @@
     "type": "git"
   },
   "scripts": {
-    "flow:check": "flow check",
-    "start": "babel-node index.js",
     "build": "babel src --out-dir dist",
+    "flow:check": "flow check",
     "lint": "eslint src test",
     "prepublish": "npm run build",
+    "start": "babel-node index.js",
     "test": "jest"
   }
 }
