@@ -39,7 +39,7 @@
     "flow:check": "flow check",
     "lint": "eslint src test",
     "prepublish": "npm run build",
-    "start": "babel-node index.js",
+    "start": "babel-node src/index.js",
     "test": "jest"
   }
 }

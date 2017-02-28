@@ -6,7 +6,7 @@ import {
   subtract,
   divide,
   multiply,
-} from "./src/arithmetic/operators";
+} from "./arithmetic/operators";
 
 export {
   add,
